@@ -9,8 +9,8 @@ import BrowserNotes from '@components/BrowserNotes';
 // import ScrollToNext from '../../components/ScrollToNext';
 // import BrowserNotes from '../../components/BrowserNotes';
 
-// import '../LandingPage/style.scss;
-import './style.scss';
+// import './style.scss';
+import './style';
 
 const LandingPage = (props, context) => {
   const { theme: { bgPrimary, colorPrimary } } = context;

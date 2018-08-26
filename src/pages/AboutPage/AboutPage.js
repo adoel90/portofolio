@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ScrollToNext from '@components/ScrollToNext';
 // import ScrollToNext from '../../components/ScrollToNext';
-import './style.scss';
-// import '../AboutPage/style.scss';
+// import './style.scss';
+import './style';
+
 
 const AboutPage = (props, context) => {
   const {

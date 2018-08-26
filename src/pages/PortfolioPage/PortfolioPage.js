@@ -7,6 +7,7 @@ import ScrollToPrevious from '@components/ScrollToPrevious';
 import portfolioItems from './portfolio-items';
 
 import './style.scss';
+// import './style';
 
 const PortfolioPage = (props, context) => {
   const {
