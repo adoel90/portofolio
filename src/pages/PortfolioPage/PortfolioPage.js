@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import PortfolioItem from '@components/PortfolioItem';
-// import ScrollToPrevious from '@components/ScrollToPrevious';
-import PortfolioItem from '../../components/PortfolioItem';
-import ScrollToPrevious from '../../components/ScrollToPrevious';
+import PortfolioItem from '@components/PortfolioItem';
+import ScrollToPrevious from '@components/ScrollToPrevious';
+// import PortfolioItem from '../../components/PortfolioItem';
+// import ScrollToPrevious from '../../components/ScrollToPrevious';
 import portfolioItems from './portfolio-items';
 
 import './style.scss';
