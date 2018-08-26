@@ -82,13 +82,9 @@ module.exports = {
     // https://github.com/facebookincubator/create-react-app/issues/290
     // `web` extension prefixes have been added for better support
     // for React Native Web.
-    extensions: ['.web.js', '.mjs', '.js', '.json', '.web.jsx', '.jsx', '.scss'],
+    extensions: ['.web.js', '.mjs', '.js', '.json', '.web.jsx', '.jsx'],
     alias: {
-      '@pages': path.resolve(__dirname, '..', 'src', 'pages'),
-      '@components': path.resolve(__dirname, '..', 'src', 'components'),
-      '@styles': path.resolve(__dirname, '..', 'src', 'styles'),
-      '@utils': path.resolve(__dirname, '..', 'src', 'utils'),
-      '@images': path.resolve(__dirname, '..', 'src', 'images'),
+      
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
       'react-native': 'react-native-web',
@@ -161,7 +157,7 @@ module.exports = {
           // In production, we use a plugin to extract that CSS to a file, but
           // in development "style" loader enables hot editing of CSS.
           {
-            test: /\.scss$/,
+            test: /\.css$/,
             use: [
               require.resolve('style-loader'),
               {
@@ -188,12 +184,6 @@ module.exports = {
                       flexbox: 'no-2009',
                     }),
                   ],
-                },
-              },
-              {
-                loader: require.resolve('sass-loader'),
-                options: {
-                  includePaths: [path.resolve(paths.appSrc, 'styles')]
                 },
               },
             ],
