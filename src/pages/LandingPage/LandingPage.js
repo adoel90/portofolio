@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SocialIcons from '@components/SocialIcons';
-import Nav from '@components/Nav';
-import ScrollToNext from '@components/ScrollToNext';
-import BrowserNotes from '@components/BrowserNotes';
-// import SocialIcons from '../../components/SocialIcons';
-// import Nav from '../../components/Nav';
-// import ScrollToNext from '../../components/ScrollToNext';
-// import BrowserNotes from '../../components/BrowserNotes';
+// import SocialIcons from '@components/SocialIcons';
+// import Nav from '@components/Nav';
+// import ScrollToNext from '@components/ScrollToNext';
+// import BrowserNotes from '@components/BrowserNotes';
+import SocialIcons from '../../components/SocialIcons';
+import Nav from '../../components/Nav';
+import ScrollToNext from '../../components/ScrollToNext';
+import BrowserNotes from '../../components/BrowserNotes';
 
-// import './style.scss';
-import './style';
+import './style.scss';
+// import './style';
 
 const LandingPage = (props, context) => {
   const { theme: { bgPrimary, colorPrimary } } = context;

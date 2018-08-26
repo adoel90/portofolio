@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ScrollToNext from '@components/ScrollToNext';
-// import ScrollToNext from '../../components/ScrollToNext';
-// import './style.scss';
-import './style';
+import ScrollToNext from '../../components/ScrollToNext';
+import './style.scss';
+
+// import ScrollToNext from '@components/ScrollToNext';
+// import './style';
 
 
 const AboutPage = (props, context) => {
