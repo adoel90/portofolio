@@ -226,44 +226,6 @@ module.exports = {
           // This loader doesn't use a "test" so it will catch all modules
           // that fall through the other loaders.
           {
-            test: /\.scss$/,
-            use: [
-              require.resolve('style-loader'),
-              {
-                loader: require.resolve('css-loader'),
-                options: {
-                  importLoaders: 1,
-                },
-              },
-              {
-                loader: require.resolve('postcss-loader'),
-                options: {
-                  // Necessary for external CSS imports to work
-                  // https://github.com/facebookincubator/create-react-app/issues/2677
-                  ident: 'postcss',
-                  plugins: () => [
-                    require('postcss-flexbugs-fixes'),
-                    autoprefixer({
-                      browsers: [
-                        '>1%',
-                        'last 4 versions',
-                        'Firefox ESR',
-                        'not ie < 9', // React doesn't support IE8 anyway
-                      ],
-                      flexbox: 'no-2009',
-                    }),
-                  ],
-                },
-              },
-              {
-                loader: require.resolve('sass-loader'),
-                options: {
-                  includePaths: [path.resolve(paths.appSrc, 'styles')]
-                },
-              },
-            ],
-          },  
-          {
             loader: require.resolve('file-loader'),
             // Exclude `js` files to keep "css" loader working as it injects
             // it's runtime that would otherwise processed through "file" loader.
