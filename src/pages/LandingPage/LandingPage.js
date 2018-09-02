@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import SocialIcons from '@components/SocialIcons';
-// import Nav from '@components/Nav';
-// import ScrollToNext from '@components/ScrollToNext';
-// import BrowserNotes from '@components/BrowserNotes';
-import SocialIcons from '../../components/SocialIcons';
-import Nav from '../../components/Nav';
-import ScrollToNext from '../../components/ScrollToNext';
-import BrowserNotes from '../../components/BrowserNotes';
+import SocialIcons from '@components/SocialIcons';
+import Nav from '@components/Nav';
+import ScrollToNext from '@components/ScrollToNext';
+import BrowserNotes from '@components/BrowserNotes';
+// import SocialIcons from '../../components/SocialIcons';
+// import Nav from '../../components/Nav';
+// import ScrollToNext from '../../components/ScrollToNext';
+// import BrowserNotes from '../../components/BrowserNotes';
 
 import './style.scss';
 // import './style';
@@ -21,7 +21,7 @@ const LandingPage = (props, context) => {
       <main style={{ color: colorPrimary }}>
         <BrowserNotes />
         <div className="intro-wrapper">
-          <div className="intro-name">Hello, I'm Doel</div>
+          <div className="intro-name">Hai, I'm Doel</div>
           <div className="tagline">
             Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja
           </div>
