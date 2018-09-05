@@ -8,9 +8,9 @@ const SocialIcons = (props, context) => {
   
   return (
     <div className="social-icons animate-icons">
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/adoel90" style={ { color: colorPrimary } }><i className="fab fa-whatsapp"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+AdoelRachman" style={ { color: colorPrimary } }><i className="fab fa-google-plus-g"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/adoel90" style={ { color: colorPrimary } }><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+AdoelRachman" style={ { color: colorPrimary } }><i className="fab fa-google-plus-g"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1yQpZXu92uQS6CUTzLXhBAH0cvBBoDDAV" style={ { color: colorPrimary } }><i className="fa fa-file-pdf"></i></a>
 
         
         {/* <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/flexdinesh" style={ { color: colorPrimary } }><i className="fab fa-twitter"></i></a>
