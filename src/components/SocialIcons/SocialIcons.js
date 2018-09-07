@@ -11,7 +11,8 @@ const SocialIcons = (props, context) => {
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/adoel90" style={ { color: colorPrimary } }><i className="fab fa-github"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://plus.google.com/+AdoelRachman" style={ { color: colorPrimary } }><i className="fab fa-google-plus-g"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1yQpZXu92uQS6CUTzLXhBAH0cvBBoDDAV" style={ { color: colorPrimary } }><i className="fa fa-file-pdf"></i></a>
-
+        <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1LxHf4cQqbiS3Eq2jXBwVj9bldJ1ELJA-/view" style={ { color: colorPrimary } }><i className="fa fa-file"></i></a>
+        
         
         {/* <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/flexdinesh" style={ { color: colorPrimary } }><i className="fab fa-twitter"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/story/flexdinesh" style={ { color: colorPrimary } }><i className="fab fa-stack-overflow"></i></a>

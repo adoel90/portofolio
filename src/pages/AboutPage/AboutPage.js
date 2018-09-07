@@ -31,7 +31,7 @@ const AboutPage = (props, context) => {
             <p>
               {/* I like <span className="highlight">JavaScript</span> and
               everything web. */}
-              <b>Javascript adalah gairah</b>. Dan segala-nya tentang Web, bergairah.
+              <b>Javascript adalah gairah</b>. Dan segala-nya tentang Web adalah waktu.
             </p>
             <p>
               {/* When my dev senses kick-in I build presumably{' '}
@@ -39,10 +39,10 @@ const AboutPage = (props, context) => {
               the community and try to keep tabs with the pace at which the web
               is evolving. I also like to{' '}
               <span className="highlight">blog</span> what I learn. */}
-              Hai saya {' '}  <span className="highlight"> Doel</span>, saat ini saya bekerja di salah satu perusahaan vendor IT di Jakarta, dan bagi teman- temen yang perlu bantuan <i>freelance</i> atau ada project seputar dunia web aplikasi, <i>feel free</i> kirim - kirim email oportunity projectnya :)
+              Saya {' '}  <span className="highlight"> Doel</span>, saat ini saya bekerja di salah satu perusahaan vendor IT di Jakarta, dan bagi teman- temen yang perlu bantuan <i>freelance</i> atau ada project seputar dunia web aplikasi, <i>feel free</i> kirim - kirim email oportunity projectnya ke <span className="highlight">adoel.cs@gmail.com</span> :)
             </p>
             <p>
-              Karena setiap hal memiliki cerita, maka portofolio memudahkan 'pernak-pernik' cerita tsb ;)
+              Karena setiap hal memiliki cerita, maka portofolio memudahkan 'pernak-pernik' cerita tsb   ;)
             </p>
             {/* <p>
               React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
